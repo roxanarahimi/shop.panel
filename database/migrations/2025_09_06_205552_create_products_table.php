@@ -16,6 +16,18 @@ return new class extends Migration
             $table->string('title');
             $table->string('image')->nullable();
             $table->foreignId('category_id')->constrained('categories')->cascadeOnDelete();
+
+            $table->float('price')->default(0);
+            $table->float('off')->default(0);
+
+            $table->text('text')->nullable();
+            $table->text('features')->nullable();
+
+            $table->integer('sale')->default(0);
+            $table->integer('score')->default(0);
+            $table->integer('like')->default(0);
+
+
             $table->boolean('visible')->default(false);
 
             $table->timestamps();
