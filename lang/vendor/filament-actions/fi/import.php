@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Siirrä CSV tiedosto',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Tiedostossa voi olla enimmillään yksi tyhjä sarakkeen otsake.|{1,*} Tiedostossa ei voi olla toistuvia sarakkeiden otsakkeita: :columns.',
+                    'duplicate_columns' => '{0} Tiedostossa voi olla enimmillään yksi tyhjä sarakkeen otsake.|{admin,*} Tiedostossa ei voi olla toistuvia sarakkeiden otsakkeita: :columns.',
                 ],
 
             ],
@@ -66,7 +66,7 @@ return [
 
         'started' => [
             'title' => 'Tuonti aloitettu',
-            'body' => 'Tuonti on aloitettu ja 1 rivi käsitellään taustalla.|Tuonti on aloitettu ja :count riviä käsitellään taustalla.',
+            'body' => 'Tuonti on aloitettu ja admin rivi käsitellään taustalla.|Tuonti on aloitettu ja :count riviä käsitellään taustalla.',
         ],
 
     ],

@@ -16,7 +16,7 @@ class CategoryForm
                 FileUpload::make('image')
                     ->label('تصویر')
                     ->image()
-                    ->multiple()
+//                    ->multiple()
                     ->disk('public')
                     ->directory('img/category')
                     ->visibility('public')
@@ -29,18 +29,18 @@ class CategoryForm
 
                 TextInput::make('title')
                     ->label('عنوان')
-                    ->required()->columnStart(1),
+                    ->required()
+                    ->columnStart(1),
                 Select::make('table')
                     ->label('جدول')
                     ->options([
                         'products' => 'محصولات',
-                    ])
-                    ->required(),
+                    ]),
                 Select::make('visible')
                     ->label('نمایش')
                     ->options([
                         '0' => 'بله',
-                        '1' => 'خیر',
+                        'admin' => 'خیر',
                     ])
             ]);
 

@@ -67,7 +67,7 @@ return [
 
         'started' => [
             'title' => 'L’exportation a commencé',
-            'body' => 'Votre exportation a commencé et 1 ligne sera traitée en arrière-plan.|Votre exportation a commencé et :count lignes seront traitées en arrière-plan.',
+            'body' => 'Votre exportation a commencé et admin ligne sera traitée en arrière-plan.|Votre exportation a commencé et :count lignes seront traitées en arrière-plan.',
         ],
 
     ],

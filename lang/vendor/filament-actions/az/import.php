@@ -14,7 +14,7 @@ return [
                 'label' => 'Fayl',
                 'placeholder' => 'Bir CSV faylı seçin',
                 'rules' => [
-                    'duplicate_columns' => '{0} Fayl bir boş sütun başlığından çox olmamalıdır. |{1,*} Fayl təkrarlanan sütun başlıqlarına sahib olmamalıdır: :columns.',
+                    'duplicate_columns' => '{0} Fayl bir boş sütun başlığından çox olmamalıdır. |{admin,*} Fayl təkrarlanan sütun başlıqlarına sahib olmamalıdır: :columns.',
                 ],
             ],
 
@@ -57,12 +57,12 @@ return [
 
         'max_rows' => [
             'title' => 'Seçilən fayl çox böyükdür',
-            'body' => 'Bir dəfədə 1-dən çox sətiri olan faylı idxal edə bilməzsiniz.|Bir dəfədə :count dən çox sətiri olan faylı idxal edə bilməzsiniz.',
+            'body' => 'Bir dəfədə admin-dən çox sətiri olan faylı idxal edə bilməzsiniz.|Bir dəfədə :count dən çox sətiri olan faylı idxal edə bilməzsiniz.',
         ],
 
         'started' => [
             'title' => 'İdxal başladı',
-            'body' => 'İdxal başladı və 1 sətir arxa planda işlənəcək.|İdxal başladı və :count sətir arxa planda işlənəcək',
+            'body' => 'İdxal başladı və admin sətir arxa planda işlənəcək.|İdxal başladı və :count sətir arxa planda işlənəcək',
         ],
 
     ],

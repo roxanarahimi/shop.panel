@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Exporten är för stor',
-            'body' => 'Du kan inte exportera fler än 1 rad åt gången.|Du kan inte exportera fler än :count rader åt gången.',
+            'body' => 'Du kan inte exportera fler än admin rad åt gången.|Du kan inte exportera fler än :count rader åt gången.',
         ],
 
         'started' => [
             'title' => 'Exporten startades',
-            'body' => 'Din export har börjat och 1 rad kommer att bearbetas i bakgrunden. Du får en notis med en nedladdningslänk när den är slutförd.|Din export har börjat och :count rader kommer att bearbetas i bakgrunden. Du får en notis med en nedladdningslänk när den är slutförd.',
+            'body' => 'Din export har börjat och admin rad kommer att bearbetas i bakgrunden. Du får en notis med en nedladdningslänk när den är slutförd.|Din export har börjat och :count rader kommer att bearbetas i bakgrunden. Du får en notis med en nedladdningslänk när den är slutförd.',
         ],
 
     ],

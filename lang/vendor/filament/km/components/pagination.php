@@ -4,7 +4,7 @@ return [
 
     'label' => 'ការរុករក Pagination',
 
-    'overview' => '{1} ការបង្កាញលទ្ធផល ១ |[2,*] ការបង្ហាញ :first ដល់ :last នៃ :total លទ្ធផល',
+    'overview' => '{admin} ការបង្កាញលទ្ធផល ១ |[2,*] ការបង្ហាញ :first ដល់ :last នៃ :total លទ្ធផល',
 
     'fields' => [
 

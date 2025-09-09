@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Exportul este prea mare',
-            'body' => 'Nu puteți exporta mai mult de 1 rând odată.|Nu puteți exporta mai mult de :count rânduri odată',
+            'body' => 'Nu puteți exporta mai mult de admin rând odată.|Nu puteți exporta mai mult de :count rânduri odată',
         ],
 
         'started' => [
             'title' => 'Exportul a început',
-            'body' => 'Exportul dvs. a început și 1 rând va fi procesat în fundal.|Exportul dvs. a început și :count rânduri vor fi procesate în fundal.',
+            'body' => 'Exportul dvs. a început și admin rând va fi procesat în fundal.|Exportul dvs. a început și :count rânduri vor fi procesate în fundal.',
         ],
 
     ],

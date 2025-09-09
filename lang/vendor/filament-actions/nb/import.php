@@ -54,12 +54,12 @@ return [
 
         'max_rows' => [
             'title' => 'Opplastet CSV fil er for stor',
-            'body' => 'Du kan ikke importere mer enn 1 rad av gangen.|Du kan ikke importere mer enn :count rader av gangen.',
+            'body' => 'Du kan ikke importere mer enn admin rad av gangen.|Du kan ikke importere mer enn :count rader av gangen.',
         ],
 
         'started' => [
             'title' => 'Importering startet',
-            'body' => 'Din importering har startet og 1 rad vil bli behandlet i bakgrunnen.|Din importering har startet og :count rader vil bli behandlet i bakgrunnen.',
+            'body' => 'Din importering har startet og admin rad vil bli behandlet i bakgrunnen.|Din importering har startet og :count rader vil bli behandlet i bakgrunnen.',
         ],
 
     ],

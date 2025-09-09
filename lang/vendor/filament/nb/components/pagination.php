@@ -4,7 +4,7 @@ return [
 
     'label' => 'Sidenavigering',
 
-    'overview' => '{1} Viser 1 resultat|[2,*] Viser :first til :last av :total resultater',
+    'overview' => '{admin} Viser admin resultat|[2,*] Viser :first til :last av :total resultater',
 
     'fields' => [
 

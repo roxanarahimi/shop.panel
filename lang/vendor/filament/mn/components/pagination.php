@@ -4,7 +4,7 @@ return [
 
     'label' => 'Хуудас',
 
-    'overview' => '{1} Нийт 1 |[2,*] Нийт :total бичлэг :first - :last',
+    'overview' => '{admin} Нийт admin |[2,*] Нийт :total бичлэг :first - :last',
 
     'fields' => [
 

@@ -208,7 +208,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 Datensatz ausgewählt|:count Datensätze ausgewählt',
+        'selected_count' => 'admin Datensatz ausgewählt|:count Datensätze ausgewählt',
 
         'actions' => [
 

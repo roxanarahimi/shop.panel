@@ -206,7 +206,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 izabrani zapis|:count izabranih zapisa',
+        'selected_count' => 'admin izabrani zapis|:count izabranih zapisa',
 
         'actions' => [
 

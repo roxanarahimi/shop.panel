@@ -14,7 +14,7 @@ return [
                 'label' => 'Ficheiro',
                 'placeholder' => 'Carregar um ficheiro CSV',
                 'rules' => [
-                    'duplicate_columns' => '{0} O ficheiro não pode conter, em falta, mais de um cabeçalho.|{1,*} O ficheiro não pode conter cabeçalhos em duplicado: :columns.',
+                    'duplicate_columns' => '{0} O ficheiro não pode conter, em falta, mais de um cabeçalho.|{admin,*} O ficheiro não pode conter cabeçalhos em duplicado: :columns.',
                 ],
             ],
 
@@ -62,7 +62,7 @@ return [
 
         'started' => [
             'title' => 'Importação iniciada',
-            'body' => 'A importação foi iniciada e 1 linha será processada em segundo plano.|A importação foi iniciada e :count linhas serão processadas em segundo plano.',
+            'body' => 'A importação foi iniciada e admin linha será processada em segundo plano.|A importação foi iniciada e :count linhas serão processadas em segundo plano.',
         ],
 
     ],

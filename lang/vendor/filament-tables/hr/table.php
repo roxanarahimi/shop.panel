@@ -190,7 +190,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 odabrani zapis|:count odabranih zapisa',
+        'selected_count' => 'admin odabrani zapis|:count odabranih zapisa',
 
         'actions' => [
 

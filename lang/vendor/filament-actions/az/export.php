@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'İxrac çox böyükdür',
-            'body' => 'Bir dəfədə 1 sətirdən çox ixrac edə bilməzsiniz.| Bir dəfədə :count sətirdən çox ixrac edə bilməzsiniz.',
+            'body' => 'Bir dəfədə admin sətirdən çox ixrac edə bilməzsiniz.| Bir dəfədə :count sətirdən çox ixrac edə bilməzsiniz.',
         ],
 
         'started' => [
             'title' => 'İxrac başladı',
-            'body' => 'İxrac başladı və 1 sətir arxa planda işlənəcək.|İxrac başladı və :count sətir arxa planda işlənəcək.',
+            'body' => 'İxrac başladı və admin sətir arxa planda işlənəcək.|İxrac başladı və :count sətir arxa planda işlənəcək.',
         ],
 
     ],

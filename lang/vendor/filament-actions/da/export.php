@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Eksporten er for stor',
-            'body' => 'Du må ikke eksportere mere end 1 række på én gang.|Du må ikke eksportere mere end :count rækker på én gang.',
+            'body' => 'Du må ikke eksportere mere end admin række på én gang.|Du må ikke eksportere mere end :count rækker på én gang.',
         ],
 
         'started' => [
             'title' => 'Eksport er started',
-            'body' => 'Din eksport er begyndt, og 1 række vil blive behandlet i baggrunden.|Din eksport er begyndt, og :count rækker vil blive behandlet i baggrunden.',
+            'body' => 'Din eksport er begyndt, og admin række vil blive behandlet i baggrunden.|Din eksport er begyndt, og :count rækker vil blive behandlet i baggrunden.',
         ],
 
     ],

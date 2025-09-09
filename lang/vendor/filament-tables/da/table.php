@@ -179,7 +179,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 række valgt|:count rækker valgt',
+        'selected_count' => 'admin række valgt|:count rækker valgt',
 
         'actions' => [
 

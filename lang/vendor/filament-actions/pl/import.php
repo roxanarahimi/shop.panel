@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Wybierz plik CSV',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Plik nie może zawierać więcej niż jednego pustego nagłówka kolumny.|{1,*} Plik nie może zawierać duplikatów nagłówków kolumn: :columns.',
+                    'duplicate_columns' => '{0} Plik nie może zawierać więcej niż jednego pustego nagłówka kolumny.|{admin,*} Plik nie może zawierać duplikatów nagłówków kolumn: :columns.',
                 ],
 
             ],
@@ -61,12 +61,12 @@ return [
 
         'max_rows' => [
             'title' => 'Przesłany plik CSV jest zbyt duży',
-            'body' => 'Nie możesz zaimportować więcej niż 1 wiersz na raz.|Nie możesz zaimportować więcej niż :count wierszy na raz.',
+            'body' => 'Nie możesz zaimportować więcej niż admin wiersz na raz.|Nie możesz zaimportować więcej niż :count wierszy na raz.',
         ],
 
         'started' => [
             'title' => 'Import rozpoczęty',
-            'body' => 'Import rozpoczęty i 1 wiersz zostanie przetworzony w tle.|Import rozpoczęty i :count wierszy zostanie przetworzonych w tle.',
+            'body' => 'Import rozpoczęty i admin wiersz zostanie przetworzony w tle.|Import rozpoczęty i :count wierszy zostanie przetworzonych w tle.',
         ],
 
     ],

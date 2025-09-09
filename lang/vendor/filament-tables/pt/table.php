@@ -208,7 +208,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 registo seleccionado|:count registos seleccionados',
+        'selected_count' => 'admin registo seleccionado|:count registos seleccionados',
 
         'actions' => [
 

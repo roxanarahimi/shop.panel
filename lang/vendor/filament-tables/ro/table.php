@@ -179,7 +179,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 element selectat|:count elemente selectate',
+        'selected_count' => 'admin element selectat|:count elemente selectate',
 
         'actions' => [
 

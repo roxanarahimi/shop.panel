@@ -201,7 +201,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 record geselecteerd|:count records geselecteerd',
+        'selected_count' => 'admin record geselecteerd|:count records geselecteerd',
 
         'actions' => [
 

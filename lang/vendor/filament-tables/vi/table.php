@@ -208,7 +208,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => 'Đã chọn 1 bản ghi|Đã chọn :count bản ghi',
+        'selected_count' => 'Đã chọn admin bản ghi|Đã chọn :count bản ghi',
 
         'actions' => [
 

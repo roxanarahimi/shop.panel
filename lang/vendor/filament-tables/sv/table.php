@@ -190,7 +190,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 objekt valt|:count objekt valda',
+        'selected_count' => 'admin objekt valt|:count objekt valda',
 
         'actions' => [
 

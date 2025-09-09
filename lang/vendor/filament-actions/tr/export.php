@@ -67,7 +67,7 @@ return [
 
         'started' => [
             'title' => 'Dışa Aktarım Başladı',
-            'body' => 'Dışa aktarım başladı ve 1 satır arka planda işlenecek.|Dışa aktarım başladı ve :count satır arka planda işlenecek.',
+            'body' => 'Dışa aktarım başladı ve admin satır arka planda işlenecek.|Dışa aktarım başladı ve :count satır arka planda işlenecek.',
         ],
 
     ],

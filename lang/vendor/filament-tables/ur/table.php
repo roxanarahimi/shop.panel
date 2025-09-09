@@ -204,7 +204,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 ریکارڈ منتخب کیا گیا|:count ریکارڈز منتخب کیے گئے',
+        'selected_count' => 'admin ریکارڈ منتخب کیا گیا|:count ریکارڈز منتخب کیے گئے',
 
         'actions' => [
 

@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Nội dung xuất quá lớn',
-            'body' => 'Bạn không thể xuất nhiều hơn 1 hàng cùng lúc.|Bạn không thể xuất nhiều hơn :count hàng cùng lúc.',
+            'body' => 'Bạn không thể xuất nhiều hơn admin hàng cùng lúc.|Bạn không thể xuất nhiều hơn :count hàng cùng lúc.',
         ],
 
         'started' => [
             'title' => 'Quá trình xuất đã bắt đầu',
-            'body' => 'Quá trình xuất của bạn đã bắt đầu và sẽ xử lý 1 hàng trong nền.|Quá trình xuất của bạn đã bắt đầu và sẽ xử lý :count hàng trong nền.',
+            'body' => 'Quá trình xuất của bạn đã bắt đầu và sẽ xử lý admin hàng trong nền.|Quá trình xuất của bạn đã bắt đầu và sẽ xử lý :count hàng trong nền.',
         ],
 
     ],

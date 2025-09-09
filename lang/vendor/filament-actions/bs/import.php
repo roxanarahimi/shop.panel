@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Priložite CSV fajl',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Fajl ne smije sadržavati više od jednog praznog zaglavlja kolone.|{1,*} Fajl ne smije sadržavati duplicirana zaglavlja kolona: :columns.',
+                    'duplicate_columns' => '{0} Fajl ne smije sadržavati više od jednog praznog zaglavlja kolone.|{admin,*} Fajl ne smije sadržavati duplicirana zaglavlja kolona: :columns.',
                 ],
 
             ],
@@ -61,12 +61,12 @@ return [
 
         'max_rows' => [
             'title' => 'Učitani CSV fajl je prevelik',
-            'body' => 'Ne možete importovati više od 1 reda odjednom.|Ne možete uvesti više od :count redova odjednom.',
+            'body' => 'Ne možete importovati više od admin reda odjednom.|Ne možete uvesti više od :count redova odjednom.',
         ],
 
         'started' => [
             'title' => 'Import započet',
-            'body' => 'Vaš uvoz je započeo i 1 red će se obrađivati u pozadini.|Vaš uvoz je započeo i :count redova će se obrađivati u pozadini.',
+            'body' => 'Vaš uvoz je započeo i admin red će se obrađivati u pozadini.|Vaš uvoz je započeo i :count redova će se obrađivati u pozadini.',
         ],
 
     ],

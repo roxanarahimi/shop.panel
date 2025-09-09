@@ -3,7 +3,7 @@
 return [
 
     'label' => 'የገጽታ አሰሳ',
-    'overview' => '{1} ከ1 መዝገብ 1 በማሳየት ላይ |[2,*] ከጠቅላላ :total መዝገቦች ከ:first እስከ :last በማሳየት ላይ::',
+    'overview' => '{admin} ከ1 መዝገብ admin በማሳየት ላይ |[2,*] ከጠቅላላ :total መዝገቦች ከ:first እስከ :last በማሳየት ላይ::',
     'fields' => [
 
         'records_per_page' => [

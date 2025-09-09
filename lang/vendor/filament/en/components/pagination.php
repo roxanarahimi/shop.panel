@@ -4,7 +4,7 @@ return [
 
     'label' => 'Pagination navigation',
 
-    'overview' => '{1} Showing 1 result|[2,*] Showing :first to :last of :total results',
+    'overview' => '{admin} Showing admin result|[2,*] Showing :first to :last of :total results',
 
     'fields' => [
 

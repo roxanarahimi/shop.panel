@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Export is te groot',
-            'body' => 'Je mag niet meer dan 1 rij tegelijk exporteren.|Je mag niet meer dan :count rijen tegelijk exporteren.',
+            'body' => 'Je mag niet meer dan admin rij tegelijk exporteren.|Je mag niet meer dan :count rijen tegelijk exporteren.',
         ],
 
         'started' => [
             'title' => 'Exporteren gestart',
-            'body' => 'Je export is begonnen en 1 rij wordt op de achtergrond verwerkt. Je ontvangt een melding met de downloadlink wanneer deze is voltooid.|Je export is begonnen en :count rijen worden op de achtergrond verwerkt. Je ontvangt een melding met de downloadlink wanneer deze is voltooid.',
+            'body' => 'Je export is begonnen en admin rij wordt op de achtergrond verwerkt. Je ontvangt een melding met de downloadlink wanneer deze is voltooid.|Je export is begonnen en :count rijen worden op de achtergrond verwerkt. Je ontvangt een melding met de downloadlink wanneer deze is voltooid.',
         ],
 
     ],

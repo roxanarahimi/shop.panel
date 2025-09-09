@@ -186,7 +186,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => 'επιλογή 1 εγγραφής|επιλογή :count εγγραφών',
+        'selected_count' => 'επιλογή admin εγγραφής|επιλογή :count εγγραφών',
 
         'actions' => [
 

@@ -13,9 +13,9 @@ class ProductForm
     {
         return $schema
             ->components([
-                FileUpload::make('image')
-                    ->label('تصویر')
-                    ->image()
+                FileUpload::make('images')
+                    ->label('تصاویر')
+                    ->imageEditor()
                     ->multiple()
                     ->disk('public')
                     ->directory('img/category')
@@ -38,7 +38,7 @@ class ProductForm
                     ->options(fn(callable $get) => \App\Models\Category::query()
                         ->when(1, function ($query) {
                             // Filter categories as needed when conditions are met
-                            $query->where('type', 'contents')->where('visible', 1);
+                            $query->where('table', 'products')->where('visible', 1);
                         })
                         ->pluck('title', 'id')
                     ),
@@ -56,12 +56,20 @@ class ProductForm
                     ->step(1)
                     ->required(),
 
+                TextInput::make('text')
+                    ->columnStart(1)
+                    ->columnSpanFull()
+                    ->minValue(0)
+                    ->maxValue(100)
+                    ->step(1)
+                    ->required(),
+
 
                 Select::make('visible')
                     ->label('نمایش')
                     ->options([
                         '0' => 'بله',
-                        '1' => 'خیر',
+                        'admin' => 'خیر',
                     ])
             ]);
     }

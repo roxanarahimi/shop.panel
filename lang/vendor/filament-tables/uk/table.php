@@ -204,7 +204,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => 'Обрано 1 запис|Обрано :count записів',
+        'selected_count' => 'Обрано admin запис|Обрано :count записів',
 
         'actions' => [
 

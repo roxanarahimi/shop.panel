@@ -186,7 +186,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 ჩანაწერი მონიშნულია|:count ჩანაწერები მონიშნულია',
+        'selected_count' => 'admin ჩანაწერი მონიშნულია|:count ჩანაწერები მონიშნულია',
 
         'actions' => [
 

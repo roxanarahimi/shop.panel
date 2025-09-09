@@ -190,7 +190,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 registre seleccionat|:count registres seleccionats',
+        'selected_count' => 'admin registre seleccionat|:count registres seleccionats',
 
         'actions' => [
 

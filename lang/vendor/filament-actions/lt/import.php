@@ -54,12 +54,12 @@ return [
 
         'max_rows' => [
             'title' => 'Įkeltas CSV filas per didelis',
-            'body' => 'Negalite importuoti daugiau nei 1 eilutės vienu metu.|Negalite importuoti dagiau nei :count eilučių vienu metu.',
+            'body' => 'Negalite importuoti daugiau nei admin eilutės vienu metu.|Negalite importuoti dagiau nei :count eilučių vienu metu.',
         ],
 
         'started' => [
             'title' => 'Importas pradėtas',
-            'body' => 'Importas pradėtas ir 1 eilutė bus apdorojama fone.|Importas pradėtas ir :count eilutės bus apdorojamos fone.',
+            'body' => 'Importas pradėtas ir admin eilutė bus apdorojama fone.|Importas pradėtas ir :count eilutės bus apdorojamos fone.',
         ],
 
     ],

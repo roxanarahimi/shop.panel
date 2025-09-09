@@ -4,7 +4,7 @@ return [
 
     'label' => 'Seitennavigation',
 
-    'overview' => '{1} Zeige 1 Ergebnis|[2,*] Zeige :first bis :last von :total Ergebnissen',
+    'overview' => '{admin} Zeige admin Ergebnis|[2,*] Zeige :first bis :last von :total Ergebnissen',
 
     'fields' => [
 

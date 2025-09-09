@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Unggah berkas CSV',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Berkas tidak boleh memiliki lebih dari satu kolom header yang kosong.|{1,*} Berkas tidak boleh memiliki kolom header yang duplikat: :columns.',
+                    'duplicate_columns' => '{0} Berkas tidak boleh memiliki lebih dari satu kolom header yang kosong.|{admin,*} Berkas tidak boleh memiliki kolom header yang duplikat: :columns.',
                 ],
 
             ],

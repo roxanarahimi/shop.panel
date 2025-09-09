@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Export je príliš veľký',
-            'body' => 'Naraz nemôžete exportovať viac ako 1 riadok.|Naraz nemôžete exportovať viac ako :count riadkov.',
+            'body' => 'Naraz nemôžete exportovať viac ako admin riadok.|Naraz nemôžete exportovať viac ako :count riadkov.',
         ],
 
         'started' => [
             'title' => 'Export zahájený',
-            'body' => 'Export bol zahájený a 1 riadok sa spracuje na pozadí.|Export bol zahájený a :count riadkov sa spracuje na pozadí.',
+            'body' => 'Export bol zahájený a admin riadok sa spracuje na pozadí.|Export bol zahájený a :count riadkov sa spracuje na pozadí.',
         ],
 
     ],

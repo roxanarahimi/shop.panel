@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Eksport je prevelik.',
-            'body' => 'Ne možete eksportovati više od 1 reda odjednom.|Ne možete eksportovati više od :count redova odjednom',
+            'body' => 'Ne možete eksportovati više od admin reda odjednom.|Ne možete eksportovati više od :count redova odjednom',
         ],
 
         'started' => [
             'title' => 'Eksport započet',
-            'body' => 'Vaš eksport je započeo i 1 red će se obrađivati u pozadini. Dobit ćete obavijest s linkom za preuzimanje kada bude dovršeno. | Vaš eksport je započeo i :count redova će se obrađivati u pozadini. Dobit ćete obavijest s linkom za preuzimanje kada bude dovršeno.',
+            'body' => 'Vaš eksport je započeo i admin red će se obrađivati u pozadini. Dobit ćete obavijest s linkom za preuzimanje kada bude dovršeno. | Vaš eksport je započeo i :count redova će se obrađivati u pozadini. Dobit ćete obavijest s linkom za preuzimanje kada bude dovršeno.',
         ],
 
     ],

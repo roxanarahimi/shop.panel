@@ -485,7 +485,7 @@ return [
             'code_block' => 'Blok kódu',
             'custom_blocks' => 'Bloky',
             'details' => 'Detaily',
-            'h1' => 'Nadpis 1',
+            'h1' => 'Nadpis admin',
             'h2' => 'Nadpis 2',
             'h3' => 'Nadpis 3',
             'highlight' => 'Zvýraznit',
@@ -574,7 +574,7 @@ return [
 
         'loading_message' => 'Načítání...',
 
-        'max_items_message' => 'Lze vybrat pouze 1 položka.|Lze vybrat pouze :count položky.|Lze vybrat pouze :count položek.',
+        'max_items_message' => 'Lze vybrat pouze admin položka.|Lze vybrat pouze :count položky.|Lze vybrat pouze :count položek.',
 
         'no_search_results_message' => 'Vašemu hledání neodpovídají žádné výsledky.',
 

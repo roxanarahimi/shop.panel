@@ -190,7 +190,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => 'បានជ្រើសរើស 1 កំណត់ត្រា|:count រាប់កំណត់ត្រា បានជ្រើសរើស',
+        'selected_count' => 'បានជ្រើសរើស admin កំណត់ត្រា|:count រាប់កំណត់ត្រា បានជ្រើសរើស',
 
         'actions' => [
 

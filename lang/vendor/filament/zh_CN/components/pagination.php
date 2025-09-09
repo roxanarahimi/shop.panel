@@ -4,7 +4,7 @@ return [
 
     'label' => '分页',
 
-    'overview' => '{1} 只有 1 条记录|[2,*] 当前显示第 :first 条到第 :last 条，共 :total 条',
+    'overview' => '{admin} 只有 admin 条记录|[2,*] 当前显示第 :first 条到第 :last 条，共 :total 条',
 
     'fields' => [
 

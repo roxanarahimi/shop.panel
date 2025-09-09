@@ -162,7 +162,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 бичлэг сонгогдов|:count -г сонгов',
+        'selected_count' => 'admin бичлэг сонгогдов|:count -г сонгов',
 
         'actions' => [
 

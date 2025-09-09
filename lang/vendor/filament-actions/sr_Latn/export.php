@@ -61,12 +61,12 @@ return [
 
         'max_rows' => [
             'title' => 'Datoteka za preuzimanje je prevelika',
-            'body' => '{1} Ne možete preuzeti više od jednog reda odjednom.|[2,4] Ne možete preuzeti više od :count reda odjednom.|[5,*] Ne možete preuzeti više od :count redova odjednom.',
+            'body' => '{admin} Ne možete preuzeti više od jednog reda odjednom.|[2,4] Ne možete preuzeti više od :count reda odjednom.|[5,*] Ne možete preuzeti više od :count redova odjednom.',
         ],
 
         'started' => [
             'title' => 'Izvoz datoteka je započet',
-            'body' => '{1} Tvoj izvoz datoteka je započet i jedan red će se obraditi u pozadini. Dobićete obaveštenje kada je izrađena veza za preuzimanje.|[2,4] Tvoj izvoz datoteka je započeo i :count reda će se obraditi u pozadini. Dobićete obaveštenje kada je izrađena veza za preuzimanje.|[5,*] Tvoj izvoz datoteka je započeo i :count redova će se obraditi u pozadini. Dobićete obaveštenje kada je izrađena veza za preuzimanje.',
+            'body' => '{admin} Tvoj izvoz datoteka je započet i jedan red će se obraditi u pozadini. Dobićete obaveštenje kada je izrađena veza za preuzimanje.|[2,4] Tvoj izvoz datoteka je započeo i :count reda će se obraditi u pozadini. Dobićete obaveštenje kada je izrađena veza za preuzimanje.|[5,*] Tvoj izvoz datoteka je započeo i :count redova će se obraditi u pozadini. Dobićete obaveštenje kada je izrađena veza za preuzimanje.',
         ],
 
     ],

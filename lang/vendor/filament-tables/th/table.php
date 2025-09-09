@@ -186,7 +186,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => 'เลือก 1 รายการ|เลือก :count รายการ',
+        'selected_count' => 'เลือก admin รายการ|เลือก :count รายการ',
 
         'actions' => [
 

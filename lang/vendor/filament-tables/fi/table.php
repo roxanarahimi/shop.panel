@@ -221,7 +221,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 tietue valittu|:count tietuetta valittu',
+        'selected_count' => 'admin tietue valittu|:count tietuetta valittu',
 
         'actions' => [
 

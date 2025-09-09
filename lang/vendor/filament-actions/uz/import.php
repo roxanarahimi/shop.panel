@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'CSV faylini yuklang',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Faylda bittadan ortiq boʻsh ustun sarlavhasi boʻlmasligi kerak.|{1,*} Faylda ikki nusxadagi ustun sarlavhalari boʻlmasligi kerak: :columns.',
+                    'duplicate_columns' => '{0} Faylda bittadan ortiq boʻsh ustun sarlavhasi boʻlmasligi kerak.|{admin,*} Faylda ikki nusxadagi ustun sarlavhalari boʻlmasligi kerak: :columns.',
                 ],
 
             ],
@@ -61,12 +61,12 @@ return [
 
         'max_rows' => [
             'title' => 'Yuklangan CSV fayl juda katta',
-            'body' => 'Bir vaqtning o\'zida 1 tadan ortiq qatorni import qila olmaysiz.|Bir vaqtning o\'zida :count dan ortiq qatorni import qila olmaysiz.',
+            'body' => 'Bir vaqtning o\'zida admin tadan ortiq qatorni import qila olmaysiz.|Bir vaqtning o\'zida :count dan ortiq qatorni import qila olmaysiz.',
         ],
 
         'started' => [
             'title' => 'Import boshlandi',
-            'body' => 'Importingiz boshlandi va 1 qator fonda qayta ishlanadi.|Importingiz boshlandi va :count qatorlari fonda qayta ishlanadi.',
+            'body' => 'Importingiz boshlandi va admin qator fonda qayta ishlanadi.|Importingiz boshlandi va :count qatorlari fonda qayta ishlanadi.',
         ],
 
     ],

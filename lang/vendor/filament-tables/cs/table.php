@@ -47,7 +47,7 @@ return [
                 'expand_list' => 'Zobrazit o :count více',
             ],
 
-            'more_list_items' => 'a 1 další|a :count další| a :count dalších',
+            'more_list_items' => 'a admin další|a :count další| a :count dalších',
         ],
 
     ],
@@ -220,7 +220,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '{1} 1 záznam zvolen|[2,4] :count záznamy zvoleny|[5,*] :count záznamů zvoleno',
+        'selected_count' => '{admin} admin záznam zvolen|[2,4] :count záznamy zvoleny|[5,*] :count záznamů zvoleno',
 
         'actions' => [
 

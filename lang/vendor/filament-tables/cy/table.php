@@ -104,7 +104,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => 'Dewiswyd 1 cofnod|:count rcyfrif wedi`u dewis',
+        'selected_count' => 'Dewiswyd admin cofnod|:count rcyfrif wedi`u dewis',
 
         'actions' => [
 

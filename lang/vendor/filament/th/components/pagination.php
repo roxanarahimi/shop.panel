@@ -4,7 +4,7 @@ return [
 
     'label' => 'การนำทางการแบ่งหน้า',
 
-    'overview' => '{1} แสดง 1 รายการ|[2,*] แสดง :first ถึง :last จาก :total รายการ',
+    'overview' => '{admin} แสดง admin รายการ|[2,*] แสดง :first ถึง :last จาก :total รายการ',
 
     'fields' => [
 

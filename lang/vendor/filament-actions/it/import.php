@@ -15,7 +15,7 @@ return [
                 'placeholder' => 'Carica un file CSV',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Il file non deve contenere più di un\'intestazione di colonna vuota.|{1,*} Il file non deve contenere intestazioni di colonna duplicate: :columns.',
+                    'duplicate_columns' => '{0} Il file non deve contenere più di un\'intestazione di colonna vuota.|{admin,*} Il file non deve contenere intestazioni di colonna duplicate: :columns.',
                 ],
             ],
 
@@ -58,12 +58,12 @@ return [
 
         'max_rows' => [
             'title' => 'Il file CSV caricato è troppo grande',
-            'body' => 'Non puoi importare più di 1 riga alla volta.|Non puoi importare più di :count  righe alla volta.',
+            'body' => 'Non puoi importare più di admin riga alla volta.|Non puoi importare più di :count  righe alla volta.',
         ],
 
         'started' => [
             'title' => 'L\'importazione è iniziata',
-            'body' => 'L\'importazione è iniziata e 1 riga verrà elaborata in background.|L\'importazione è iniziata e :count righe verranno elaborate in background.',
+            'body' => 'L\'importazione è iniziata e admin riga verrà elaborata in background.|L\'importazione è iniziata e :count righe verranno elaborate in background.',
         ],
 
     ],

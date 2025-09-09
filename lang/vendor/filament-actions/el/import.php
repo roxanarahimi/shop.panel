@@ -54,12 +54,12 @@ return [
 
         'max_rows' => [
             'title' => 'Uploaded CSV file is too large',
-            'body' => 'You may not import more than 1 row at once.|You may not import more than :count rows at once.',
+            'body' => 'You may not import more than admin row at once.|You may not import more than :count rows at once.',
         ],
 
         'started' => [
             'title' => 'Import started',
-            'body' => 'Your import has begun and 1 row will be processed in the background.|Your import has begun and :count rows will be processed in the background.',
+            'body' => 'Your import has begun and admin row will be processed in the background.|Your import has begun and :count rows will be processed in the background.',
         ],
 
     ],

@@ -4,7 +4,7 @@ return [
 
     'label' => 'Sahifalar navigatsiyasi',
 
-    'overview' => '{1} 1 natija ko\'rsatilmoqda |[2,*] :firstdan :lastgacha jami natijalar :totalta',
+    'overview' => '{admin} admin natija ko\'rsatilmoqda |[2,*] :firstdan :lastgacha jami natijalar :totalta',
 
     'fields' => [
 

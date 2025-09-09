@@ -189,7 +189,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 məlumat seçildi|:count məlumat seçildi',
+        'selected_count' => 'admin məlumat seçildi|:count məlumat seçildi',
 
         'actions' => [
 

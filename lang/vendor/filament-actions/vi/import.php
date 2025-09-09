@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Tải lên tệp CSV',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Tệp không được chứa nhiều hơn một tiêu đề cột trống.|{1,*} Tệp không được chứa các tiêu đề cột trùng lặp: :columns.',
+                    'duplicate_columns' => '{0} Tệp không được chứa nhiều hơn một tiêu đề cột trống.|{admin,*} Tệp không được chứa các tiêu đề cột trùng lặp: :columns.',
                 ],
 
             ],
@@ -61,12 +61,12 @@ return [
 
         'max_rows' => [
             'title' => 'Tệp CSV đã tải lên quá lớn',
-            'body' => 'Bạn không thể nhập nhiều hơn 1 hàng cùng một lúc.|Bạn không thể nhập nhiều hơn :count hàng cùng một lúc.',
+            'body' => 'Bạn không thể nhập nhiều hơn admin hàng cùng một lúc.|Bạn không thể nhập nhiều hơn :count hàng cùng một lúc.',
         ],
 
         'started' => [
             'title' => 'Quá trình nhập đã bắt đầu',
-            'body' => 'Quá trình nhập của bạn đã bắt đầu và sẽ xử lý 1 hàng trong nền.|Quá trình nhập của bạn đã bắt đầu và sẽ xử lý :count hàng trong nền.',
+            'body' => 'Quá trình nhập của bạn đã bắt đầu và sẽ xử lý admin hàng trong nền.|Quá trình nhập của bạn đã bắt đầu và sẽ xử lý :count hàng trong nền.',
         ],
 
     ],

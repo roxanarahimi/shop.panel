@@ -14,7 +14,7 @@ return [
                 'label' => 'Dosya',
                 'placeholder' => 'Bir CSV dosyası seçin',
                 'rules' => [
-                    'duplicate_columns' => '{0} Dosya birden fazla boş sütun başlığı içeremez.|{1,*} Dosya tekrar eden sütun başlığı içeremez: :columns.',
+                    'duplicate_columns' => '{0} Dosya birden fazla boş sütun başlığı içeremez.|{admin,*} Dosya tekrar eden sütun başlığı içeremez: :columns.',
                 ],
             ],
 
@@ -57,12 +57,12 @@ return [
 
         'max_rows' => [
             'title' => 'Yüklenen Dosya Çok Büyük',
-            'body' => 'Aynı anda 1\'den fazla satır içeren dosyaları içe aktaramazsınız.|Aynı anda :count\'den fazla satır içeren dosyaları içe aktaramazsınız.',
+            'body' => 'Aynı anda admin\'den fazla satır içeren dosyaları içe aktaramazsınız.|Aynı anda :count\'den fazla satır içeren dosyaları içe aktaramazsınız.',
         ],
 
         'started' => [
             'title' => 'İçe Aktarım Başladı',
-            'body' => 'İçe aktarım başladı ve 1 satır arka planda işlenecek.|İçe aktarım başladı ve :count satır arka planda işlenecek.',
+            'body' => 'İçe aktarım başladı ve admin satır arka planda işlenecek.|İçe aktarım başladı ve :count satır arka planda işlenecek.',
         ],
 
     ],

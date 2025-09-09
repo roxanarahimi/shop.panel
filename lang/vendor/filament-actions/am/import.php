@@ -14,7 +14,7 @@ return [
                 'placeholder' => 'የCSV ፋይል ይስቀሉ።',
                 'rules' => [
 
-                    'duplicate_columns' => '{0} The file must not contain more than one empty column header.|{1,*} The file must not contain duplicate column headers: :columns.',
+                    'duplicate_columns' => '{0} The file must not contain more than one empty column header.|{admin,*} The file must not contain duplicate column headers: :columns.',
                 ],
             ],
             'columns' => [
@@ -56,7 +56,7 @@ return [
         'started' => [
 
             'title' => 'ኢምፖርቱ ተጀምሮዋል',
-            'body' => 'መጫን ጀምሯል እና 1 ረድፍ ከበስተጀርባ ይካሄዳል።|የእርስዎ መጫን ጀምሯል እና :count ረድፎች ከበስተጀርባ ይሰራሉ።',
+            'body' => 'መጫን ጀምሯል እና admin ረድፍ ከበስተጀርባ ይካሄዳል።|የእርስዎ መጫን ጀምሯል እና :count ረድፎች ከበስተጀርባ ይሰራሉ።',
         ],
     ],
     'example_csv' => [

@@ -175,7 +175,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => 'Izvēlēts 1 ieraksts|:count ieraksti izvēlēti',
+        'selected_count' => 'Izvēlēts admin ieraksts|:count ieraksti izvēlēti',
 
         'actions' => [
 

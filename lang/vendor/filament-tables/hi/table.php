@@ -49,7 +49,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 रिकॉर्ड चयनित।|:count रिकॉर्ड चयनित।',
+        'selected_count' => 'admin रिकॉर्ड चयनित।|:count रिकॉर्ड चयनित।',
 
         'actions' => [
 

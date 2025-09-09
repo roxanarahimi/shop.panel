@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Naloži CSV datoteko',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Datoteka ne sme vsebovati več kot enega praznega imena stolpca.|{1,*} Datoteka ne sme vsebovati podvojenih imen stolpcev: :columns.',
+                    'duplicate_columns' => '{0} Datoteka ne sme vsebovati več kot enega praznega imena stolpca.|{admin,*} Datoteka ne sme vsebovati podvojenih imen stolpcev: :columns.',
                 ],
 
             ],
@@ -61,12 +61,12 @@ return [
 
         'max_rows' => [
             'title' => 'Naložena CSV datoteka je prevelika',
-            'body' => 'Naenkrat lahko uvozite največ 1 vrstico.|Naenkrat lahko uvozite največ :count vrstic.',
+            'body' => 'Naenkrat lahko uvozite največ admin vrstico.|Naenkrat lahko uvozite največ :count vrstic.',
         ],
 
         'started' => [
             'title' => 'Uvoz se je začel',
-            'body' => 'Vaš uvoz se je začel in 1 vrstica bo obdelana v ozadju.|Vaš uvoz se je začel in :count vrstic bo obdelanih v ozadju.',
+            'body' => 'Vaš uvoz se je začel in admin vrstica bo obdelana v ozadju.|Vaš uvoz se je začel in :count vrstic bo obdelanih v ozadju.',
         ],
 
     ],

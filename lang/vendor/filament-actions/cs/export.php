@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Export překračuje povolenou velikost',
-            'body' => 'Není možné exportovat více než 1 řádek najednou.|Není možné exportovat více než :count řádků najednou.',
+            'body' => 'Není možné exportovat více než admin řádek najednou.|Není možné exportovat více než :count řádků najednou.',
         ],
 
         'started' => [
             'title' => 'Export byl zahájen',
-            'body' => 'Export byl zahájen a 1 řádek bude zpracován na pozadí.|Váš export byl zahájen a :count řádků bude zpracováno na pozadí.',
+            'body' => 'Export byl zahájen a admin řádek bude zpracován na pozadí.|Váš export byl zahájen a :count řádků bude zpracováno na pozadí.',
         ],
 
     ],

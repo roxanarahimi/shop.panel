@@ -4,7 +4,7 @@ return [
 
     'label' => 'Paginació',
 
-    'overview' => '{1} Mostrant 1 resultat|[2,*] Mostrant :first a :last de :total resultats',
+    'overview' => '{admin} Mostrant admin resultat|[2,*] Mostrant :first a :last de :total resultats',
 
     'fields' => [
 

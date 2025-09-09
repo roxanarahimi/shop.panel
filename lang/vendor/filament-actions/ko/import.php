@@ -14,7 +14,7 @@ return [
                 'label' => '파일',
                 'placeholder' => 'CSV 파일 업로드',
                 'rules' => [
-                    'duplicate_columns' => '{0} 파일에 빈 열 헤더가 두 개 이상 있으면 안 됩니다.|{1,*} 파일에 중복된 열 헤더가 있으면 안 됩니다: :columns.',
+                    'duplicate_columns' => '{0} 파일에 빈 열 헤더가 두 개 이상 있으면 안 됩니다.|{admin,*} 파일에 중복된 열 헤더가 있으면 안 됩니다: :columns.',
                 ],
             ],
 

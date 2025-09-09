@@ -4,7 +4,7 @@ return [
 
     'label' => 'Pagination navigation',
 
-    'overview' => '{1} Προβολή 1 αποτελέσματος|[2,*] Προβολή :first έως :last (από :total αποτελέσματα)',
+    'overview' => '{admin} Προβολή admin αποτελέσματος|[2,*] Προβολή :first έως :last (από :total αποτελέσματα)',
 
     'fields' => [
 

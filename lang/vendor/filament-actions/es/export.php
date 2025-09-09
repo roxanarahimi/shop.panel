@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'La exportación es demasiado grande',
-            'body' => 'No se puede exportar más de 1 fila a la vez.|No se pueden exportar más de :count filas a la vez.',
+            'body' => 'No se puede exportar más de admin fila a la vez.|No se pueden exportar más de :count filas a la vez.',
         ],
 
         'started' => [
             'title' => 'Exportación iniciada',
-            'body' => 'Su exportación ha comenzado y se procesará 1 fila en segundo plano.|Su exportación ha comenzado y se procesarán :count filas en segundo plano.',
+            'body' => 'Su exportación ha comenzado y se procesará admin fila en segundo plano.|Su exportación ha comenzado y se procesarán :count filas en segundo plano.',
         ],
 
     ],

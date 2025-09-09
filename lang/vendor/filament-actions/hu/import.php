@@ -14,7 +14,7 @@ return [
                 'label' => 'Fájl',
                 'placeholder' => 'Tölts fel egy CSV fájlt',
                 'rules' => [
-                    'duplicate_columns' => '{0} A fájl nem tartalmazhat egynél több üres oszlopfejlécet.|{1,*} A fájl nem tartalmazhat ismétlődő oszlopfejléceket: :columns.',
+                    'duplicate_columns' => '{0} A fájl nem tartalmazhat egynél több üres oszlopfejlécet.|{admin,*} A fájl nem tartalmazhat ismétlődő oszlopfejléceket: :columns.',
                 ],
             ],
 

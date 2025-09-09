@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Eksportas per didelis',
-            'body' => 'Negalite eksportuoti daugiau nei 1 eilutės vienu metu.|Negalite eksportuoti daugiau nei :count eilučių vienu metu.',
+            'body' => 'Negalite eksportuoti daugiau nei admin eilutės vienu metu.|Negalite eksportuoti daugiau nei :count eilučių vienu metu.',
         ],
 
         'started' => [
             'title' => 'Eksportas pradėtas',
-            'body' => 'Eksportas pradėtas ir 1 eilutė bus apdorota fone.|Eksportas pradėtas ir :count eilutės bus apdorotos fone.',
+            'body' => 'Eksportas pradėtas ir admin eilutė bus apdorota fone.|Eksportas pradėtas ir :count eilutės bus apdorotos fone.',
         ],
 
     ],

@@ -4,7 +4,7 @@ return [
 
     'label' => 'ڕێنوێیی پەڕەکردن',
 
-    'overview' => '{1} پشاندانی ئەنجامێک|[2,*] پیشاندانی :first بۆ :last لە :total ئەنجام',
+    'overview' => '{admin} پشاندانی ئەنجامێک|[2,*] پیشاندانی :first بۆ :last لە :total ئەنجام',
 
     'fields' => [
 

@@ -4,7 +4,7 @@ return [
 
     'label' => 'Sivujen navigointi',
 
-    'overview' => '{1} Näytetään 1 tulos|[2,*] Näytetään :first - :last / :total tulosta',
+    'overview' => '{admin} Näytetään admin tulos|[2,*] Näytetään :first - :last / :total tulosta',
 
     'fields' => [
 

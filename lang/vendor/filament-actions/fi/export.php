@@ -67,7 +67,7 @@ return [
 
         'started' => [
             'title' => 'Vienti aloitettu',
-            'body' => 'Vienti on aloitettu ja 1 rivi käsitellään taustalla. Saat ilmoituksen latauslinkillä kun se on valmis.|Vienti on aloitettu ja :count riviä käsitellään taustalla. Saat ilmoituksen latauslinkillä kun se on valmis.',
+            'body' => 'Vienti on aloitettu ja admin rivi käsitellään taustalla. Saat ilmoituksen latauslinkillä kun se on valmis.|Vienti on aloitettu ja :count riviä käsitellään taustalla. Saat ilmoituksen latauslinkillä kun se on valmis.',
         ],
 
     ],

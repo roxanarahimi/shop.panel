@@ -335,7 +335,7 @@ return [
             'bold' => 'Îngroșat',
             'bullet_list' => 'Listă cu puncte',
             'code_block' => 'Bloc de cod',
-            'h1' => 'Titlu 1',
+            'h1' => 'Titlu admin',
             'h2' => 'Titlu 2',
             'h3' => 'Titlu 3',
             'italic' => 'Cursiv',

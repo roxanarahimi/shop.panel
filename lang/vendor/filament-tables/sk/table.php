@@ -221,7 +221,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 vybraná položka|:count vybraných položiek',
+        'selected_count' => 'admin vybraná položka|:count vybraných položiek',
 
         'actions' => [
 

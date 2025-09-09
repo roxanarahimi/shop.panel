@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Izvoz je prevelik',
-            'body' => 'Naenkrat lahko izvozite največ 1 vrstico.|Naenkrat lahko izvozite največ :count vrstic.',
+            'body' => 'Naenkrat lahko izvozite največ admin vrstico.|Naenkrat lahko izvozite največ :count vrstic.',
         ],
 
         'started' => [
             'title' => 'Izvoz se je začel',
-            'body' => 'Vaš izvoz se je začel in 1 vrstica bo obdelana v ozadju. Ko bo končano, boste prejeli obvestilo s povezavo za prenos.|Vaš izvoz se je začel in :count vrstic bo obdelanih v ozadju. Ko bo končano, boste prejeli obvestilo s povezavo za prenos.',
+            'body' => 'Vaš izvoz se je začel in admin vrstica bo obdelana v ozadju. Ko bo končano, boste prejeli obvestilo s povezavo za prenos.|Vaš izvoz se je začel in :count vrstic bo obdelanih v ozadju. Ko bo končano, boste prejeli obvestilo s povezavo za prenos.',
         ],
 
     ],

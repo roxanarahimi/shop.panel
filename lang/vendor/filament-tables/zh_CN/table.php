@@ -185,7 +185,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '已选择 1 条记录|已选择 :count 条记录',
+        'selected_count' => '已选择 admin 条记录|已选择 :count 条记录',
 
         'actions' => [
 

@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Cargar un archivo CSV',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} El archivo no debe contener más de un encabezado de columna vacío.|{1,*} El archivo no debe contener encabezados de columna duplicados: :columns.',
+                    'duplicate_columns' => '{0} El archivo no debe contener más de un encabezado de columna vacío.|{admin,*} El archivo no debe contener encabezados de columna duplicados: :columns.',
                 ],
 
             ],
@@ -66,7 +66,7 @@ return [
 
         'started' => [
             'title' => 'Importación iniciada',
-            'body' => 'Su importación ha comenzado y se procesará 1 fila en segundo plano.|Su importación ha comenzado y se procesarán :count filas en segundo plano.',
+            'body' => 'Su importación ha comenzado y se procesará admin fila en segundo plano.|Su importación ha comenzado y se procesarán :count filas en segundo plano.',
         ],
 
     ],

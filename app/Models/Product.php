@@ -16,5 +16,10 @@ class Product extends Model
     {
         return $this->hasMany(OrderItem::class);//->quantity
     }
-
+    protected function casts(): array
+    {
+        return [
+            'images' => 'array',
+        ];
+    }
 }

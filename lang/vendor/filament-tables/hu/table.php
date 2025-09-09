@@ -204,7 +204,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 elem kiválasztva|:count elem kiválasztva',
+        'selected_count' => 'admin elem kiválasztva|:count elem kiválasztva',
 
         'actions' => [
 

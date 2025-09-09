@@ -4,7 +4,7 @@ return [
 
     'label' => 'Navigasi penomboran',
 
-    'overview' => '{1} Memaparkan 1 rekod|[2,*] Memaparkan :first hingga :last daripada :total rekod',
+    'overview' => '{admin} Memaparkan admin rekod|[2,*] Memaparkan :first hingga :last daripada :total rekod',
 
     'fields' => [
 

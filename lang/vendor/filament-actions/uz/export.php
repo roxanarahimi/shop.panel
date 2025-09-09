@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Export qilish uchun juda katta',
-            'body' => 'Bir vaqtning o\'zida 1 tadan ortiq qatorni eksport qila olmaysiz.|Bir vaqtning o\'zida :count satrdan ortiq eksport qila olmaysiz.',
+            'body' => 'Bir vaqtning o\'zida admin tadan ortiq qatorni eksport qila olmaysiz.|Bir vaqtning o\'zida :count satrdan ortiq eksport qila olmaysiz.',
         ],
 
         'started' => [
             'title' => 'Export boshlandi',
-            'body' => 'Eksportingiz boshlandi va 1 qator fonda qayta ishlanadi. Tugallangach, yuklab olish havolasi bilan bildirishnoma olasiz.|Eksportingiz boshlandi va :count qatorlari fonda qayta ishlanadi. Yuklab olish tugallangandan so\'ng siz yuklab olish havolasi bilan bildirishnoma olasiz.',
+            'body' => 'Eksportingiz boshlandi va admin qator fonda qayta ishlanadi. Tugallangach, yuklab olish havolasi bilan bildirishnoma olasiz.|Eksportingiz boshlandi va :count qatorlari fonda qayta ishlanadi. Yuklab olish tugallangandan so\'ng siz yuklab olish havolasi bilan bildirishnoma olasiz.',
         ],
 
     ],

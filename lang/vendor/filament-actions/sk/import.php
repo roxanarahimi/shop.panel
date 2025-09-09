@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Nahrať CSV súbor',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Súbor nesmie obsahovať viac ako jeden prázdny názov stĺpca.|{1,*} Súbor nesmie obsahovať duplicitné názvy stĺpcov: :columns.',
+                    'duplicate_columns' => '{0} Súbor nesmie obsahovať viac ako jeden prázdny názov stĺpca.|{admin,*} Súbor nesmie obsahovať duplicitné názvy stĺpcov: :columns.',
                 ],
 
             ],
@@ -61,12 +61,12 @@ return [
 
         'max_rows' => [
             'title' => 'Nahraný CSV súbor je príliš veľký',
-            'body' => 'Naraz nemôžete importovať viac ako 1 riadok.|Naraz nemôžete importovať viac ako :count riadkov.',
+            'body' => 'Naraz nemôžete importovať viac ako admin riadok.|Naraz nemôžete importovať viac ako :count riadkov.',
         ],
 
         'started' => [
             'title' => 'Import zahájený',
-            'body' => 'Import bol zahájený a 1 riadok sa spracuje na pozadí.|Import bol zahájený a :count riadkov sa spracuje na pozadí.',
+            'body' => 'Import bol zahájený a admin riadok sa spracuje na pozadí.|Import bol zahájený a :count riadkov sa spracuje na pozadí.',
         ],
 
     ],

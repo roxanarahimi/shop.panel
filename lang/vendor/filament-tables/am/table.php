@@ -163,7 +163,7 @@ return [
     'reorder_indicator' => 'መዝገቦቹን ይጎትቱ እና በቅደም ተከተል ያስቀምጡ።',
     'selection_indicator' => [
 
-        'selected_count' => '1 መዝገብ ተመርጧል|:count መዝገቦች ተመርጠዋል',
+        'selected_count' => 'admin መዝገብ ተመርጧል|:count መዝገቦች ተመርጠዋል',
         'actions' => [
 
             'select_all' => [

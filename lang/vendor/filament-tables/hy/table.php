@@ -190,7 +190,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 ընտրված գրառում|:count ընտրված գրառումներ',
+        'selected_count' => 'admin ընտրված գրառում|:count ընտրված գրառումներ',
 
         'actions' => [
 

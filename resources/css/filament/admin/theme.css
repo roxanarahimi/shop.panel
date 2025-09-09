@@ -1,0 +1,16 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@source '../../../../app/Filament/**/*';
+@source '../../../../resources/views/filament/**/*';
+
+.fi-body {
+    @apply bg-zinc-50;
+}
+
+.fi-body, .fi-sidebar, .fi-topbar {
+    @apply dark:bg-zinc-800;
+}
+.fi-ta-table, .fi-pagination,.fi-ta-empty-state{
+    @apply dark:bg-zinc-800;
+
+}

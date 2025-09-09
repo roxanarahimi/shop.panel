@@ -16,7 +16,7 @@ return [
                 'placeholder' => 'Prenesi CSV datoteku',
                 // Ovdje nisam bio siguran je li moramo i to pravilo prevesti
                 'rules' => [
-                    'duplicate_columns' => '{0} The file must not contain more than one empty column header.|{1,*} The file must not contain duplicate column headers: :columns.',
+                    'duplicate_columns' => '{0} The file must not contain more than one empty column header.|{admin,*} The file must not contain duplicate column headers: :columns.',
                 ],
 
             ],
@@ -60,12 +60,12 @@ return [
 
         'max_rows' => [
             'title' => 'Poslana CSV datoteka je prevelika',
-            'body' => '{1} Ne možeš uvesti više od jednog reda odjednom.|[2,4] Ne možeš uvesti više od :count reda odjednom.|[5,*] Ne možeš uvesti više od :count redova odjednom.',
+            'body' => '{admin} Ne možeš uvesti više od jednog reda odjednom.|[2,4] Ne možeš uvesti više od :count reda odjednom.|[5,*] Ne možeš uvesti više od :count redova odjednom.',
         ],
 
         'started' => [
             'title' => 'Uvoz je započeo',
-            'body' => '{1} Uvoz je započeo i jedan red će se obraditi u pozadini.|[2,4] Uvoz je započeo i :count reda će se obraditi u pozadini.|[5,*] Uvoz je započeo i :count redova će se obraditi u pozadini.',
+            'body' => '{admin} Uvoz je započeo i jedan red će se obraditi u pozadini.|[2,4] Uvoz je započeo i :count reda će se obraditi u pozadini.|[5,*] Uvoz je započeo i :count redova će se obraditi u pozadini.',
         ],
 
     ],

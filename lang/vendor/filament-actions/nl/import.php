@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Upload een CSV-bestand',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Het bestand mag niet meer dan één lege kolomkop bevatten.|{1,*} Het bestand mag geen dubbele kolomkoppen bevatten: :columns.',
+                    'duplicate_columns' => '{0} Het bestand mag niet meer dan één lege kolomkop bevatten.|{admin,*} Het bestand mag geen dubbele kolomkoppen bevatten: :columns.',
                 ],
 
             ],
@@ -61,12 +61,12 @@ return [
 
         'max_rows' => [
             'title' => 'Geüploade CSV-bestand is te groot',
-            'body' => 'Je mag niet meer dan 1 rij tegelijk importeren.|Je mag niet meer dan :count rijen tegelijk importeren.',
+            'body' => 'Je mag niet meer dan admin rij tegelijk importeren.|Je mag niet meer dan :count rijen tegelijk importeren.',
         ],
 
         'started' => [
             'title' => 'Importeren gestart',
-            'body' => 'Je import is begonnen en 1 rij wordt op de achtergrond verwerkt.|Je import is begonnen en :count rijen worden op de achtergrond verwerkt.',
+            'body' => 'Je import is begonnen en admin rij wordt op de achtergrond verwerkt.|Je import is begonnen en :count rijen worden op de achtergrond verwerkt.',
         ],
 
     ],

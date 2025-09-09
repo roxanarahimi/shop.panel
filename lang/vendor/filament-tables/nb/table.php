@@ -186,7 +186,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 post valgt|:count poster valgt',
+        'selected_count' => 'admin post valgt|:count poster valgt',
 
         'actions' => [
 

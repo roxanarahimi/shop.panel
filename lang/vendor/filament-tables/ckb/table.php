@@ -207,7 +207,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 ڕیز هەڵبژێردراوە|:count ڕیز هەڵبژێردراوە',
+        'selected_count' => 'admin ڕیز هەڵبژێردراوە|:count ڕیز هەڵبژێردراوە',
 
         'actions' => [
 

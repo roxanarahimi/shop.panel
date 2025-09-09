@@ -4,7 +4,7 @@ return [
 
     'label' => 'صفحہ بندی',
 
-    'overview' => '{1} 1 نتیجہ دکھایا جا رہا ہے|[2,*] :first سے :last تک کے :total نتائج دکھا رہے ہیں',
+    'overview' => '{admin} admin نتیجہ دکھایا جا رہا ہے|[2,*] :first سے :last تک کے :total نتائج دکھا رہے ہیں',
 
     'fields' => [
 

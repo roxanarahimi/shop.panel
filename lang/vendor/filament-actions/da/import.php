@@ -54,12 +54,12 @@ return [
 
         'max_rows' => [
             'title' => 'Uploadet CSV fil er for stor',
-            'body' => 'Du må ikke importere mere end 1 række på én gang.|Du må ikke importere mere end :count rækker på én gang.',
+            'body' => 'Du må ikke importere mere end admin række på én gang.|Du må ikke importere mere end :count rækker på én gang.',
         ],
 
         'started' => [
             'title' => 'Import started',
-            'body' => 'Din import er begyndt, og 1 række vil blive behandlet i baggrunden.|Din import er begyndt, og :count rækker vil blive behandlet i baggrunden',
+            'body' => 'Din import er begyndt, og admin række vil blive behandlet i baggrunden.|Din import er begyndt, og :count rækker vil blive behandlet i baggrunden',
         ],
 
     ],

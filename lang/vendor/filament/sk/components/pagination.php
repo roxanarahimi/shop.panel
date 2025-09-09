@@ -4,7 +4,7 @@ return [
 
     'label' => 'Stránkovanie',
 
-    'overview' => '{1} Zobrazuje sa jeden výsledok|[2,*] Zobrazuje sa :first až :last z celkových :total výsledkov',
+    'overview' => '{admin} Zobrazuje sa jeden výsledok|[2,*] Zobrazuje sa :first až :last z celkových :total výsledkov',
 
     'fields' => [
 

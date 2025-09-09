@@ -4,7 +4,7 @@ return [
 
     'label' => 'Lapdales navigācija',
 
-    'overview' => '{1} Rāda 1 rezultātu|[2,*] Rāda :first līdz :last no :total rezultātiem',
+    'overview' => '{admin} Rāda admin rezultātu|[2,*] Rāda :first līdz :last no :total rezultātiem',
 
     'fields' => [
 

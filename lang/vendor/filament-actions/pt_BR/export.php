@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'A exportação é muito grande',
-            'body' => 'Não é possível exportar mais de 1 linha de uma vez.|Não é possível exportar mais de :count linhas de uma vez.',
+            'body' => 'Não é possível exportar mais de admin linha de uma vez.|Não é possível exportar mais de :count linhas de uma vez.',
         ],
 
         'started' => [
             'title' => 'Exportação iniciada',
-            'body' => 'A exportação foi iniciada e 1 linha será processada em segundo plano.|A exportação foi iniciada e :count linhas serão processadas em segundo plano.',
+            'body' => 'A exportação foi iniciada e admin linha será processada em segundo plano.|A exportação foi iniciada e :count linhas serão processadas em segundo plano.',
         ],
 
     ],

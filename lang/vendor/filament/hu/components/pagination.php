@@ -4,7 +4,7 @@ return [
 
     'label' => 'Lapozás',
 
-    'overview' => '{1} 1 találat|[2,*] :first - :last megjelenítve a(z) :total találatból',
+    'overview' => '{admin} admin találat|[2,*] :first - :last megjelenítve a(z) :total találatból',
 
     'fields' => [
 

@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Muat naik fail CSV',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Fail tidak boleh mengandungi lebih daripada satu pengepala lajur kosong.|{1,*} Fail tidak boleh mengandungi pengepala lajur pendua: :columns.',
+                    'duplicate_columns' => '{0} Fail tidak boleh mengandungi lebih daripada satu pengepala lajur kosong.|{admin,*} Fail tidak boleh mengandungi pengepala lajur pendua: :columns.',
                 ],
             ],
 
@@ -60,12 +60,12 @@ return [
 
         'max_rows' => [
             'title' => 'Fail CSV yang dimuat naik terlalu besar',
-            'body' => 'Anda tidak boleh mengimport lebih daripada 1 baris sekaligus.|Anda tidak boleh mengimport lebih daripada :count baris sekaligus.',
+            'body' => 'Anda tidak boleh mengimport lebih daripada admin baris sekaligus.|Anda tidak boleh mengimport lebih daripada :count baris sekaligus.',
         ],
 
         'started' => [
             'title' => 'Import dimulakan',
-            'body' => 'Import anda telah bermula dan 1 baris akan diproses di latar belakang.|Import anda telah bermula dan :count baris akan diproses di latar belakang.',
+            'body' => 'Import anda telah bermula dan admin baris akan diproses di latar belakang.|Import anda telah bermula dan :count baris akan diproses di latar belakang.',
         ],
 
     ],

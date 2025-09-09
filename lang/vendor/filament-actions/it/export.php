@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'L\'esportazione è troppo grande',
-            'body' => 'Non puoi esportare più di 1 riga alla volta.|Non puoi esportare più di :count righe alla volta.',
+            'body' => 'Non puoi esportare più di admin riga alla volta.|Non puoi esportare più di :count righe alla volta.',
         ],
 
         'started' => [
             'title' => 'Esportazione avviata',
-            'body' => 'L\'esportazione è iniziata e 1 riga verrà elaborata in background.|L\'esportazione è iniziata e :count righe verranno elaborate in background.',
+            'body' => 'L\'esportazione è iniziata e admin riga verrà elaborata in background.|L\'esportazione è iniziata e :count righe verranno elaborate in background.',
         ],
 
     ],

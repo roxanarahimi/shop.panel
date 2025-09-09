@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Eksporteringen er for stor',
-            'body' => 'Du kan ikke eksporterer mer enn 1 rap av gangen.|Du kan ikke eksportere mer enn :count rader av gangen.',
+            'body' => 'Du kan ikke eksporterer mer enn admin rap av gangen.|Du kan ikke eksportere mer enn :count rader av gangen.',
         ],
 
         'started' => [
             'title' => 'Eksportering startet',
-            'body' => 'Din eksportering har startet og 1 rad vil bli behandlet i bakgrunnen.|Din eksportering har startet og :count rader vil bli behandlet i bakgrunnen.',
+            'body' => 'Din eksportering har startet og admin rad vil bli behandlet i bakgrunnen.|Din eksportering har startet og :count rader vil bli behandlet i bakgrunnen.',
         ],
 
     ],

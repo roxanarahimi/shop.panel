@@ -67,7 +67,7 @@ return [
 
         'started' => [
             'title' => 'Exportação iniciada',
-            'body' => 'A exportação foi iniciada e 1 registo será processado em segundo plano.|A exportação foi iniciada e :count registos serão processados em segundo plano.',
+            'body' => 'A exportação foi iniciada e admin registo será processado em segundo plano.|A exportação foi iniciada e :count registos serão processados em segundo plano.',
         ],
 
     ],

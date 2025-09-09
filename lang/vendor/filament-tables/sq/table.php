@@ -171,7 +171,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 regjistrim i zgjedhur|:count regjistrime të zgjedhura',
+        'selected_count' => 'admin regjistrim i zgjedhur|:count regjistrime të zgjedhura',
 
         'actions' => [
 

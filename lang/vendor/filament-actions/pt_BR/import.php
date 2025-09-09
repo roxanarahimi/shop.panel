@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Enviar um arquivo CSV',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} O arquivo não deve possuir mais de uma coluna sem cabeçalho.|{1,*} O arquivo não pode conter colunas com cabeçalhos iguais: :columns.',
+                    'duplicate_columns' => '{0} O arquivo não deve possuir mais de uma coluna sem cabeçalho.|{admin,*} O arquivo não pode conter colunas com cabeçalhos iguais: :columns.',
                 ],
 
             ],
@@ -61,12 +61,12 @@ return [
 
         'max_rows' => [
             'title' => 'O arquivo CSV enviado é muito grande',
-            'body' => 'Não é possível importar mais de 1 linha de uma vez.|Não é possível importar mais de :count linhas de uma vez.',
+            'body' => 'Não é possível importar mais de admin linha de uma vez.|Não é possível importar mais de :count linhas de uma vez.',
         ],
 
         'started' => [
             'title' => 'Importação iniciada',
-            'body' => 'A importação foi iniciada e 1 linha será processada em segundo plano.|A importação foi iniciada e :count linhas serão processadas em segundo plano.',
+            'body' => 'A importação foi iniciada e admin linha será processada em segundo plano.|A importação foi iniciada e :count linhas serão processadas em segundo plano.',
         ],
 
     ],

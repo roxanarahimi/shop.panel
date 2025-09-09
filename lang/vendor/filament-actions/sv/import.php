@@ -17,7 +17,7 @@ return [
                 'placeholder' => 'Ladda upp en CSV-fil',
 
                 'rules' => [
-                    'duplicate_columns' => '{0} Filen kan inte innehålla fler än en tom kolumn i rubrikraden.|{1,*} Filen kan inte innehålla identiska kolumner i rubrikraden: :columns.',
+                    'duplicate_columns' => '{0} Filen kan inte innehålla fler än en tom kolumn i rubrikraden.|{admin,*} Filen kan inte innehålla identiska kolumner i rubrikraden: :columns.',
                 ],
 
             ],
@@ -61,12 +61,12 @@ return [
 
         'max_rows' => [
             'title' => 'Den uppladdade CSV-filen är för stor',
-            'body' => 'Du kan inte importera fler än 1 rad åt gången.|Du kan inte importera fler än :count rader åt gången.',
+            'body' => 'Du kan inte importera fler än admin rad åt gången.|Du kan inte importera fler än :count rader åt gången.',
         ],
 
         'started' => [
             'title' => 'Importen startades',
-            'body' => 'Din import har börjat och 1 rad kommer att bearbetas i bakgrunden.|Din import har börjat och :count rader kommer att bearbetas i bakgrunden.',
+            'body' => 'Din import har börjat och admin rad kommer att bearbetas i bakgrunden.|Din import har börjat och :count rader kommer att bearbetas i bakgrunden.',
         ],
 
     ],

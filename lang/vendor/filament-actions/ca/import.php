@@ -14,7 +14,7 @@ return [
                 'label' => 'Arxiu',
                 'placeholder' => 'Carregar un arxiu CSV',
                 'rules' => [
-                    'duplicate_columns' => '{0} El fitxer no ha de contenir més d\'un encapçalament de columna buit.|{1,*} El fitxer no ha de contenir encapçalaments de columna duplicats: :columns.',
+                    'duplicate_columns' => '{0} El fitxer no ha de contenir més d\'un encapçalament de columna buit.|{admin,*} El fitxer no ha de contenir encapçalaments de columna duplicats: :columns.',
                 ],
             ],
 
@@ -62,7 +62,7 @@ return [
 
         'started' => [
             'title' => 'Importació iniciada',
-            'body' => 'La vostra importació ha començat i es processarà 1 fila en segon pla.|La vostra importació ha començat i es processaran :count files en segon pla.',
+            'body' => 'La vostra importació ha començat i es processarà admin fila en segon pla.|La vostra importació ha començat i es processaran :count files en segon pla.',
         ],
 
     ],

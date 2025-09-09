@@ -185,7 +185,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '1 įrašas pasirinktas|:count įrašai pasirinkti',
+        'selected_count' => 'admin įrašas pasirinktas|:count įrašai pasirinkti',
 
         'actions' => [
 

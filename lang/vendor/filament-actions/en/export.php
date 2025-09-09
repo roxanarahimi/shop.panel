@@ -62,12 +62,12 @@ return [
 
         'max_rows' => [
             'title' => 'Export is too large',
-            'body' => 'You may not export more than 1 row at once.|You may not export more than :count rows at once.',
+            'body' => 'You may not export more than admin row at once.|You may not export more than :count rows at once.',
         ],
 
         'started' => [
             'title' => 'Export started',
-            'body' => 'Your export has begun and 1 row will be processed in the background. You will receive a notification with the download link when it is complete.|Your export has begun and :count rows will be processed in the background. You will receive a notification with the download link when it is complete.',
+            'body' => 'Your export has begun and admin row will be processed in the background. You will receive a notification with the download link when it is complete.|Your export has begun and :count rows will be processed in the background. You will receive a notification with the download link when it is complete.',
         ],
 
     ],

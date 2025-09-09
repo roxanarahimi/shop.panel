@@ -4,7 +4,7 @@ return [
 
     'label' => 'Paginação',
 
-    'overview' => '{1} A mostrar 1 resultado|[2,*] A mostrar :first a :last de :total resultados',
+    'overview' => '{admin} A mostrar admin resultado|[2,*] A mostrar :first a :last de :total resultados',
 
     'fields' => [
 

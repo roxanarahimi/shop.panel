@@ -14,7 +14,7 @@ return [
                 'label' => 'Soubor',
                 'placeholder' => 'Nahrát CSV soubor',
                 'rules' => [
-                    'duplicate_columns' => '{0} Soubor nesmí obsahovat více než jednu prázdnou hlavičku sloupce.|{1,*} Soubor nesmí obsahovat duplicitní hlavičky sloupců: :columns.',
+                    'duplicate_columns' => '{0} Soubor nesmí obsahovat více než jednu prázdnou hlavičku sloupce.|{admin,*} Soubor nesmí obsahovat duplicitní hlavičky sloupců: :columns.',
                 ],
             ],
 
@@ -57,12 +57,12 @@ return [
 
         'max_rows' => [
             'title' => 'Nahraný CSV soubor je příliš velký',
-            'body' => 'Nelze importovat více než 1 řádek najednou.|Nelze importovat více než :count řádků najednou.',
+            'body' => 'Nelze importovat více než admin řádek najednou.|Nelze importovat více než :count řádků najednou.',
         ],
 
         'started' => [
             'title' => 'Zahájení importu',
-            'body' => 'Váš import byl zahájen a na pozadí bude zpracován 1 řádek.|Váš import byl zahájen a na pozadí budou zpracovány řádky :count.',
+            'body' => 'Váš import byl zahájen a na pozadí bude zpracován admin řádek.|Váš import byl zahájen a na pozadí budou zpracovány řádky :count.',
         ],
 
     ],

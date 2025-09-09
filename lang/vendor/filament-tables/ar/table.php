@@ -208,7 +208,7 @@ return [
 
     'selection_indicator' => [
 
-        'selected_count' => '{1} تم تحديد سجل واحد|[3,10] تم تحديد :count سجلات |[2,*] تم تحديد :count سجل',
+        'selected_count' => '{admin} تم تحديد سجل واحد|[3,10] تم تحديد :count سجلات |[2,*] تم تحديد :count سجل',
 
         'actions' => [
 

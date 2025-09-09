@@ -4,7 +4,7 @@ return [
 
     'label' => 'Navigacija stranicama',
 
-    'overview' => '{1} Prikazuje se 1 rezultat|[2,*] Prikazuje se :first do :last od ukupno :total rezultata',
+    'overview' => '{admin} Prikazuje se admin rezultat|[2,*] Prikazuje se :first do :last od ukupno :total rezultata',
 
     'fields' => [
 

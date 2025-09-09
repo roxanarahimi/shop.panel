@@ -4,7 +4,7 @@ return [
 
     'label' => 'Paginering navigatie',
 
-    'overview' => '{1} Toont 1 resultaat|[2,*] Toont :first tot :last van :total resultaten',
+    'overview' => '{admin} Toont admin resultaat|[2,*] Toont :first tot :last van :total resultaten',
 
     'fields' => [
 
