@@ -26,24 +26,30 @@ class ProductsTable
                     }),
                 TextColumn::make('title')
                     ->label('عنوان')
-                ,
+                    ->searchable()
+                    ->sortable(),
+                TextColumn::make('price')
+                    ->label('قیمت')
+                    ->searchable()
+                    ->sortable(),
+                TextColumn::make('off')
+                    ->label('تخفیف')
+                    ->searchable()
+                    ->sortable(),
+
                 IconColumn::make('visible')
                     ->label('نمایش')
                     ->boolean()
                     ->trueIcon('heroicon-o-check')->trueColor('success')
-                    ->falseIcon('heroicon-o-x-mark')->falseColor('danger')
-                ,
+                    ->falseIcon('heroicon-o-x-mark')->falseColor('danger'),
 //                    ->formatStateUsing(fn ($state) => $state ? 'بله' : 'خیر'),
 
                 TextColumn::make('score')
-                    ->label('امتیاز')
-                ,
+                    ->label('امتیاز'),
                 TextColumn::make('sale')
-                    ->label('خرید')
-                ,
+                    ->label('خرید'),
                 TextColumn::make('like')
-                    ->label('لایک')
-                ,
+                    ->label('لایک'),
                 TextColumn::make('created_at')
                     ->label('تاریخ ایجاد')
                     ->formatStateUsing(fn($state) => explode(' ', (new DateController())->toPersian($state))[0]),

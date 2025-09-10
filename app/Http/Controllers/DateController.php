@@ -9,7 +9,7 @@ class DateController extends Controller
     {
         date_default_timezone_set('Asia/Tehran');
         $formatter=new \IntlDateFormatter(
-            'fa',
+            'en-IR@calender=persian',
             \IntlDateFormatter::FULL,
             \IntlDateFormatter::FULL,
             'Asia/Tehran',
@@ -18,6 +18,26 @@ class DateController extends Controller
         );
         $dateTime = \datetime::createfromformat('Y-m-d H:i:s',$date);
         return str_replace('-','/',$formatter->format($dateTime));
+
+    }
+    public function toPersian1($date)
+    {
+        date_default_timezone_set('Asia/Tehran');
+        $formatter=new \IntlDateFormatter(
+            'en-IR@calender=persian',
+            \IntlDateFormatter::FULL,
+            \IntlDateFormatter::FULL,
+            'Asia/Tehran',
+            \IntlDateFormatter::TRADITIONAL,
+            "yyyy-MM-d HH:mm:ss"
+        );
+        $dateTime = \datetime::createfromformat('Y-m-d H:i:s',$date);
+        $date = explode(' ',$formatter->format($dateTime))[0];
+        $time = explode(' ',$formatter->format($dateTime))[1];
+        $time = explode(':',$time)[0].":".explode(':',$time)[1];
+//        return $dateTime = str_replace('-','/',$formatter->format($dateTime));
+        return $time.'  '.str_replace('-','/',(string)$date);
+
 
     }
     public function toPersian2($date0)

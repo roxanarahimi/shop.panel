@@ -19,9 +19,9 @@ class UsersTable
         return $table
             ->columns([
 
-                TextColumn::make('name')->label('نام'),
-                TextColumn::make('mobile')->label('موبایل'),
-                TextColumn::make('email')->label('ایمیل'),
+                TextColumn::make('name')->searchable()->label('نام'),
+                TextColumn::make('mobile')->searchable()->label('موبایل'),
+                TextColumn::make('email')->searchable()->label('ایمیل'),
 
                 TextColumn::make('created_at')
                     ->label('تاریخ عضویت')

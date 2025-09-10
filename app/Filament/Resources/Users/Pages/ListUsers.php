@@ -5,6 +5,8 @@ namespace App\Filament\Resources\Users\Pages;
 use App\Filament\Resources\Users\UserResource;
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
+use Filament\Schemas\Components\Tabs\Tab;
+use Illuminate\Database\Eloquent\Builder;
 
 class ListUsers extends ListRecords
 {
@@ -16,4 +18,14 @@ class ListUsers extends ListRecords
             CreateAction::make(),
         ];
     }
+    public function getTabs(): array
+    {
+        return [
+            'users' => Tab::make('کاربر ها')
+                ->modifyQueryUsing(fn (Builder $query) => $query->where('scope', 'user')),
+            'admins' => Tab::make('ادمین ها')
+                ->modifyQueryUsing(fn (Builder $query) => $query->where('scope', 'admin')),
+        ];
+    }
+
 }

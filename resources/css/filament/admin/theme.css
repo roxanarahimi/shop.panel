@@ -10,7 +10,7 @@
 .fi-body, .fi-sidebar, .fi-topbar {
     @apply dark:bg-zinc-800;
 }
-.fi-ta-table, .fi-pagination,.fi-ta-empty-state{
+.fi-ta-table, .fi-pagination,.fi-ta-empty-state, .fi-tabs, .fi-simple-main,.fi-section,.fi-ta-ctn{
     @apply dark:bg-zinc-800;
 
 }
